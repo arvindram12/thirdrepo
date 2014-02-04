@@ -53,6 +53,8 @@ In terms of syntax, rather than the `lm` function, we use `glm`, which stands fo
 m2 <- glm(treatment~bdi.2m, family=binomial(link="logit"))
 m2$coefficients
 ```
+
+
 We interpret this analysis that as the rating of BDI at 2 months increases by one unit, then there is a decrease of .043 for those in the 'Beat the Blues' treatment group. 
 
 Let us plot a logistic regression in order to see a complete picture.
@@ -64,3 +66,4 @@ And the plot confirms the model...(I don't know what else to say?)
 
 
 
+##Test edit - AR
